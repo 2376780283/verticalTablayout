@@ -116,6 +116,7 @@
 
 
 # VerticalTabLayout 介绍 
+- fork from https://github.com/secf4ult/VerticalTabLayout
 - ZZH life
 
 - 一个基于 **Material TabLayout** 深度改造的 **纵向 TabLayout** 组件，用于在 Android 中实现「左侧 / 右侧垂直标签栏 + 内容区域」的经典布局形态（如设置页、侧边导航、主从界面）。
