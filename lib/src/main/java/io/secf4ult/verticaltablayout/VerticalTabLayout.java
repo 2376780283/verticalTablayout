@@ -522,7 +522,7 @@ public class VerticalTabLayout extends ScrollView {
         if (scrollAnimator != null && scrollAnimator.isRunning()) {
             scrollAnimator.cancel();
         }
-        scrollTo(calculateScrollYForTab(position, positionOffset), 0);
+        scrollTo(0,calculateScrollYForTab(position, positionOffset));
 
         // Update the 'selected state' view as we scroll, if enabled
         if (updateSelectedText) {
